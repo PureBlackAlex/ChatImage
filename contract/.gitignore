@@ -1,0 +1,16 @@
+/cache/
+/coverage/
+/keystore/
+/node_modules/
+/typechain/
+/artifacts/
+modules.xml
+.idea/
+/.openzeppelin/
+.env
+.gitsecret/keys/random_seed
+!*.secret
+.DS_Store
+/publish/
+package-lock.json
+happyRedPacketGasHelper.ts
