@@ -1,10 +1,10 @@
-// SPDX-License-Identifier: MIT
-pragma solidity ^0.8.4;
+// SPDX-License-Identifier: Apache-2.0
 
-import "./@openzeppelin/contracts/token/ERC721/ERC721.sol";
-import "./@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
-import "./@openzeppelin/contracts/access/Ownable.sol";
-import "./@openzeppelin/contracts/utils/Counters.sol";
+pragma solidity ^0.8.10;
+import "@openzeppelin/contracts/token/ERC721/ERC721.sol";
+import "@openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+import "@openzeppelin/contracts/utils/Counters.sol";
 
 contract ChatImage is ERC721, ERC721URIStorage, Ownable {
     using Counters for Counters.Counter;

@@ -10,3 +10,10 @@ ChatImage is a web3 project
     3. npx hardhat test
     4. npx hardhat typechain
     5. npx hardhat   
+
+
+## How to deploy contract
+
+npx hardhat chatimage-deploy 
+--deploy-private-key "private" 
+--network goerli

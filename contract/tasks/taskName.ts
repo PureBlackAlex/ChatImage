@@ -45,76 +45,25 @@ export const SUB_LOG_INFO: string  = 'sub:sub-log-info'
  * warning: Param names must be camelCase
  **/
 export const CNAME_FLAG: string  = 'cname' // contract name
-export const RECEIVER_FLAG: string = 'receiver'
-export const OWNER_ADDR_FLAG: string = 'ownerAddr'
-export const AMOUNT_FLAG: string = 'amount'
 export const KEY_STORE_FILE_PATH: string = 'keystorefilepath'
-export const FX_NODE_URL_FLAG: string = 'fxNodeUrl'
-export const FUNC_NAME_FLAG: string = 'functionName'
-export const IS_GET_INIT_DATA_FLAG: string = 'isGetInitData'
 export const DEPLOY_PRIVATE_KEY: string = 'deployPrivateKey'
 export const IS_LEDGER: string = 'isLedger'
 export const DRIVER_PATH: string = 'driverPath'
-export const TRANSACTION_HASH: string = 'transactionHash'
 export const DISABLE_CONFIRM_FLAG: string = 'disableConfirm'
-export const TOKEN_ADDR_FLAG:string = 'tokenAddr'
-export const MNEMONIC_FLAG: string = 'mnemonic'
-export const ACCOUNT_ADDR_FLAG: string = 'accountAddr'
-export const CONTRACT_ADDR_FLAG: string = 'contractAddr'
-export const SPENDER_ADDR_FLAG: string = 'spenderAddr'
-export const NAME_FLAG: string = 'name'
-export const SYMBOL_FLAG: string = 'symbol'
-export const ETH_ADDR_FLAG: string = 'ethAddr'
-export const FX_CORE_ADDR_FLAG: string = 'fxCoreAddr'
-export const DATA_FLAG = 'data'
-export const ID_FLAG = 'id'
-export const CALLER_FLAG = 'caller'
-export const EVM_TYPE_FLAG = 'evmType'
-export const SINGER_FLAG = 'singer'
-export const NEW_ADDR_FLAG = 'newAddr'
-export const PROXY_ADDR_FLAG = 'proxyAddr'
-export const ADMIN_ADDR_FLAG = 'adminAddr'
-export const CHIP_ADDR_FLAG = 'chipAddr'
-export const ORACLE_ADDR_FLAG = 'orcaleAddr'
-export const UNDERLYING_NAME_FLAG = 'underlyingName'
-export const INDEX_FLAG = 'index'
-export const TARGET_NAME_FLAG = 'targetName'
-export const LOGIC_ADDR_FLAG = 'logicAddr'
-export const TARGET_BYT32_FLAG = 'targetByte32'
-export const UUPS_BYTECODE_FLAG = 'uupsBytecode'
-export const BET_NAME = 'betName'
-export const COUNTER_FLAG = 'counter'
-export const START_PRICE_FLAG = 'startPrice'
-export const DATELINE_FLAG = 'dateline'
-export const END_TIME_FLAG = 'endTime'
-export const PRICE_FALG = 'price'
 
 
+// c98
+export  const  COIN98_DEPLOY :string = 'coin98-deploy'
 
-// uups
-export const LOGIC_CONTRACT_ADDR_FLAG: string = 'logicContractAddr'
-export const PROXY_INIT_BYTE_FLAG: string = 'proxyInitData'
-
-// evm
-export const NUM_FLAG: string = 'num'
-
-// evm
-export const PREFIX_FLAG: string = 'prefix'
-
-
+//chatimage
+export  const  CHATIMAGE_DEPLOY :string = 'chatimage-deploy'
 /**
  * constant variable
  */
 
 export const CONTRACT_NAME =  {
-    'ERC1967Proxy': 'ERC1967Proxy',
-    'TestERC20': 'TestERC20',
-    'TestBEP20Token': 'TestBEP20Token',
-    'BurnToken': 'BurnToken',
-    'TestSixDecimalERC20': 'TestSixDecimalERC20',
-    'Bet': 'Bet',
-    'Oracle': 'Oracle',
-    'BetManager': 'BetManager',
+    'ChatImage': 'ChatImage',
+    'Coin98': 'Coin98',
 }
 
 export const DEFAULT_DRIVE_PATH = "44'/60'/0'/0/0" // ledger live
