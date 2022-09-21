@@ -3,8 +3,6 @@
  **/
 export const GET_CONTRACT_FACTORY: string  = 'get_contract_factory'
 export const GET_CONTRACT_ARTIFACTS: string  = 'get_contract_artifacts'
-export const SUB_DEPLOY_CONTRACT_WITHOUT_PARAM: string  = 'deploy_contract'
-export const SUB_APPROVE: string  = 'sub:approve'
 export const SUB_CHECK_APPROVE: string  = 'sub:check_approve'
 export const SUB_TRANSFER: string  = 'sub:transfer'
 export const SUB_ADD_BRIDGE_TOKEN: string  = 'sub:add-bridge-token'
@@ -50,13 +48,17 @@ export const DEPLOY_PRIVATE_KEY: string = 'deployPrivateKey'
 export const IS_LEDGER: string = 'isLedger'
 export const DRIVER_PATH: string = 'driverPath'
 export const DISABLE_CONFIRM_FLAG: string = 'disableConfirm'
+export const ACCOUNT_ADDR_FLAG: string = 'accountAddr'
+export const CONTRACT_ADDR_FLAG: string = 'contractAddr'
 
 
 // c98
 export  const  COIN98_DEPLOY :string = 'coin98-deploy'
 
 //chatimage
-export  const  CHATIMAGE_DEPLOY :string = 'chatimage-deploy'
+export const  CHATIMAGE_DEPLOY :string = 'chatimage-deploy'
+export const  CHATIMAGE_SAFEMINT :string = 'chatimage-safemint'
+export const  NFTURL :string = 'nfturl'
 /**
  * constant variable
  */
